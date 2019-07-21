@@ -1,0 +1,10 @@
+.post-table {
+    ::ng-deep {
+        .mat-row {
+            &:hover {
+                background-color: azure;
+                cursor: pointer;
+            }
+        }
+    }
+}
